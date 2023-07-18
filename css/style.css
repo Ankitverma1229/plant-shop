@@ -1,0 +1,493 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@500&display=swap");
+
+body {
+  padding: 15px;
+}
+
+.font-playfair {
+  font-family: "Playfair Display", serif;
+}
+
+.font-poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.font-600 {
+  font-weight: 600;
+}
+
+.font-500 {
+  font-weight: 500;
+}
+
+.font-400 {
+  font-weight: 400;
+}
+
+.color-green {
+  color: #3e8847;
+}
+
+.color-green-50 {
+  color: rgba(208, 214, 201, 1);
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+input:focus {
+  outline: none;
+}
+
+a:hover {
+  color: coral !important;
+}
+
+.scale-items:hover {
+  scale: 1.1;
+}
+
+.hero-left h1 {
+  font-size: 2rem;
+}
+
+.single-leaf img {
+  display: none;
+}
+
+.button-effect:hover {
+  background-color: black !important;
+  color: white;
+  box-shadow: 0px 20px 27px 0px rgba(2, 22, 5, 0.17);
+}
+
+.plant-leaf img {
+  width: 93vw;
+  height: 81vh;
+}
+
+.plant-collection {
+  margin-top: 5rem;
+}
+
+.collection-slider .slider-button {
+  cursor: pointer;
+}
+
+.journey-section {
+  padding: 0px;
+}
+
+.journey-right-plant {
+  height: 70vh;
+}
+
+.journey-right-plant img {
+  height: 100%;
+}
+
+.journey-left {
+  position: relative;
+}
+
+.journey-flower {
+  position: absolute;
+  top: -52%;
+  left: 2.5%;
+}
+
+.journey-mid-section {
+  margin-top: 8rem;
+}
+
+.advantage-card {
+  background-color: rgba(252, 251, 248, 1);
+  transition-duration: 1s;
+}
+
+.advantage-card:hover {
+  box-shadow: 0px 20px 43px 0px rgba(2, 22, 5, 0.11);
+}
+
+.ask-us-left {
+  background-image: url("/images/ask_us_section/ask-us-background.png");
+  min-height: 80vh;
+  min-width: 50vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.ask-us-right {
+  box-shadow: 0px 20px 43px 0px rgba(2, 22, 5, 0.11);
+  background-color: rgba(250, 249, 247, 1);
+  z-index: 1;
+}
+
+input,
+textarea {
+  background-color: rgba(250, 249, 247, 1);
+}
+
+.choosing-card {
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 34px 50px -28px rgba(2, 22, 5, 0.1);
+  transition-duration: 1s;
+}
+
+.choosing-card:hover {
+  background-color: rgba(62, 136, 71, 1);
+  cursor: pointer;
+  scale: 1.1;
+}
+
+.choosing-card:hover p {
+  color: white !important;
+}
+
+.plant-care-section {
+  margin-top: 8rem;
+}
+
+.plant-care-right {
+  background-image: url("/images/care_section/plant-care-lady.png");
+  min-height: 70vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+footer {
+  background-image: url("/images/footer_section/footer-background.png");
+  background-size: cover;
+}
+
+.footer-head {
+  font-size: 2rem;
+}
+
+.hidden-slides {
+  display: none;
+}
+
+.clients-section {
+  height: 50vh;
+  margin-bottom: 30rem;
+}
+
+.client-card {
+  background: linear-gradient(270deg,
+      #ffffff -13.38%,
+      rgba(255, 255, 255, 0) 113.38%);
+  box-shadow: 0px 34px 50px -28px rgba(2, 22, 5, 0.1);
+}
+
+.clients-image {
+  height: 25vh;
+  width: 37vw;
+}
+
+.clients-card-container {
+  position: relative;
+}
+
+.left-slider,
+.right-slider {
+  position: absolute;
+  top: 100%;
+}
+
+.left-slider {
+  left: 20%;
+}
+
+.right-slider {
+  left: 50%;
+}
+
+.clients-image img {
+  height: 100%;
+  width: 100%;
+}
+
+.client-card:hover {
+  background-color: #3e8847;
+  cursor: pointer;
+}
+
+.client-card:hover .quote-left {
+  color: white;
+}
+
+.client-card:hover .quote-right {
+  color: white !important;
+}
+
+button:focus {
+  outline: none;
+}
+
+@media (min-width: 768px) {
+  body {
+    padding: 0px;
+  }
+
+  .hamburger-button {
+    display: none;
+  }
+
+  .hero-left {
+    position: relative;
+    z-index: 2;
+  }
+
+  .hero-left h1 {
+    width: 40vw;
+  }
+
+  .single-leaf img {
+    display: inline;
+    height: 10vh;
+    width: 4vw;
+  }
+
+  .flower-pot {
+    width: 47vw;
+    height: 55vh;
+  }
+
+  .flower-pot img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .hero-right {
+    position: absolute;
+    left: 38.3%;
+  }
+
+  .flower-pot {
+    z-index: 1;
+  }
+
+  .plant-leaf {
+    z-index: -1;
+    margin-left: -4rem;
+  }
+
+  .plant-leaf {
+    height: 80vh;
+    width: 23vw;
+  }
+
+  .plant-leaf img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .slider {
+    position: absolute;
+    left: 43%;
+    top: 75%;
+  }
+
+  .slide-bar img {
+    width: 15vw;
+  }
+
+  .plant-collection {
+    margin-top: 12rem;
+  }
+
+  .card-image img {
+    width: 25vw;
+  }
+
+  .journey-flower-background img {
+    height: 80vh;
+    width: 30vw;
+  }
+
+  .journey-flower {
+    top: -20%;
+    left: 2.5%;
+  }
+
+  .journey-flower img {
+    height: 96vh;
+  }
+
+  .journey-right p {
+    width: 32vw;
+  }
+
+  .journey-mid-section {
+    margin-top: -8rem;
+  }
+
+  .easy-order-image {
+    margin-left: -2.5rem;
+  }
+
+  .advantage-card {
+    width: 40vw;
+  }
+
+  .ask-us-right {
+    min-width: 50vw;
+    min-height: 65vh;
+    margin-left: -4rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .clients-section {
+    margin-bottom: 10rem;
+  }
+
+  .choosing-card {
+    width: 40vw;
+  }
+
+  .plant-care-left {
+    width: 32vw;
+  }
+
+  .plant-care-right {
+    min-width: 50vw;
+  }
+
+  .footer-head {
+    font-size: 5rem;
+  }
+
+  .footer-text {
+    width: 29vw;
+  }
+}
+
+@media (min-width: 1000px) {
+  .slider {
+    top: 88%;
+  }
+
+  .advantage-card {
+    width: 20vw;
+  }
+
+  .ask-us-right {
+    margin-bottom: 3.5rem;
+    margin-top: 3.5rem;
+  }
+
+  .choosing-card {
+    width: 20vw;
+  }
+
+  .plant-care-right {
+    min-height: 60vh;
+    min-width: 50vw;
+    background-size: cover;
+  }
+}
+
+@media (min-width: 1440px) {
+  .hero-left h1 {
+    width: 25vw;
+    font-size: 3rem;
+  }
+
+  .flower-pot {
+    width: 55vw;
+    height: 67vh;
+  }
+
+  .flower-pot img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .hero-right {
+    left: 26.3%;
+  }
+
+  .plant-leaf img {
+    height: 35vw;
+  }
+
+  .plant-leaf img {
+    height: 100%;
+  }
+
+  .slider {
+    left: 35%;
+    top: 90%;
+  }
+
+  .journey-flower {
+    left: 8.5%;
+  }
+
+  .clients-section {
+    margin-bottom: 5rem;
+  }
+
+  .clients-container {
+    position: relative;
+    height: 50vh;
+    width: 60vw;
+  }
+
+  .right-slider,
+  .left-slider {
+    margin-top: 4% !important;
+  }
+
+  .right-slider {
+    left: 79%;
+    width: 3rem;
+  }
+
+  .left-slider {
+    left: 15%;
+  }
+
+  .client-slider {
+    position: absolute;
+    left: 10px;
+    width: 100%;
+  }
+
+  .client-card {
+    box-shadow: 0px 34px 50px -28px rgba(2, 22, 5, 0.1);
+    height: 30vh;
+    width: 49vw;
+  }
+
+  .clients-image {
+    margin-left: -2rem;
+    height: 25vh;
+    width: 37vw;
+  }
+
+  .clients-image img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .quote-left,
+  .quote-right {
+    position: absolute;
+    font-size: 4rem;
+  }
+
+  .quote-left {
+    top: 8%;
+    left: 33.3%;
+  }
+
+  .quote-right {
+    top: 56%;
+    left: 66%;
+  }
+}
